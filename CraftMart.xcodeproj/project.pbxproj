@@ -14,6 +14,11 @@
 		A02A24922B576EDE004B07BC /* CraftMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A24912B576EDE004B07BC /* CraftMartTests.swift */; };
 		A02A249C2B576EDE004B07BC /* CraftMartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A249B2B576EDE004B07BC /* CraftMartUITests.swift */; };
 		A02A249E2B576EDE004B07BC /* CraftMartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A249D2B576EDE004B07BC /* CraftMartUITestsLaunchTests.swift */; };
+		A06482232B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A06482222B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		A06482242B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A06482222B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		A06482252B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A06482222B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		A06482272B6D538400641D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02A24842B576EDE004B07BC /* Assets.xcassets */; };
+		A06482282B6D538700641D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02A24842B576EDE004B07BC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,8 @@
 		A02A24972B576EDE004B07BC /* CraftMartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02A249B2B576EDE004B07BC /* CraftMartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftMartUITests.swift; sourceTree = "<group>"; };
 		A02A249D2B576EDE004B07BC /* CraftMartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftMartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A06482222B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A06482262B6D514500641D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +101,8 @@
 		A02A247F2B576EDD004B07BC /* CraftMart */ = {
 			isa = PBXGroup;
 			children = (
+				A06482262B6D514500641D77 /* Info.plist */,
+				A064821D2B6D4FE200641D77 /* Font */,
 				A02A24802B576EDD004B07BC /* CraftMartApp.swift */,
 				A02A24822B576EDD004B07BC /* ContentView.swift */,
 				A02A24842B576EDE004B07BC /* Assets.xcassets */,
@@ -125,6 +134,14 @@
 				A02A249D2B576EDE004B07BC /* CraftMartUITestsLaunchTests.swift */,
 			);
 			path = CraftMartUITests;
+			sourceTree = "<group>";
+		};
+		A064821D2B6D4FE200641D77 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A06482222B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02A24882B576EDE004B07BC /* Preview Assets.xcassets in Resources */,
+				A06482232B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
 				A02A24852B576EDE004B07BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06482272B6D538400641D77 /* Assets.xcassets in Resources */,
+				A06482242B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06482282B6D538700641D77 /* Assets.xcassets in Resources */,
+				A06482252B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +446,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CraftMart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraftMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +475,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CraftMart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraftMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
