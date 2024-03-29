@@ -19,6 +19,9 @@
 		A06482252B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A06482222B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf */; };
 		A06482272B6D538400641D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02A24842B576EDE004B07BC /* Assets.xcassets */; };
 		A06482282B6D538700641D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02A24842B576EDE004B07BC /* Assets.xcassets */; };
+		A0E000ED2BAF8EF300DEA55E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E000EC2BAF8EF300DEA55E /* SignUpView.swift */; };
+		A0E000EF2BB52A3700DEA55E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E000EE2BB52A3700DEA55E /* LandingView.swift */; };
+		A0E000F12BB70F0F00DEA55E /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E000F02BB70F0F00DEA55E /* ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		A02A249D2B576EDE004B07BC /* CraftMartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftMartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A06482222B6D506C00641D77 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		A06482262B6D514500641D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E000EC2BAF8EF300DEA55E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A0E000EE2BB52A3700DEA55E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		A0E000F02BB70F0F00DEA55E /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				A064821D2B6D4FE200641D77 /* Font */,
 				A02A24802B576EDD004B07BC /* CraftMartApp.swift */,
 				A02A24822B576EDD004B07BC /* ContentView.swift */,
+				A0E000F02BB70F0F00DEA55E /* ContainerView.swift */,
+				A0E000EE2BB52A3700DEA55E /* LandingView.swift */,
+				A0E000EC2BAF8EF300DEA55E /* SignUpView.swift */,
 				A02A24842B576EDE004B07BC /* Assets.xcassets */,
 				A02A24862B576EDE004B07BC /* Preview Content */,
 			);
@@ -279,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E000F12BB70F0F00DEA55E /* ContainerView.swift in Sources */,
+				A0E000EF2BB52A3700DEA55E /* LandingView.swift in Sources */,
 				A02A24832B576EDD004B07BC /* ContentView.swift in Sources */,
+				A0E000ED2BAF8EF300DEA55E /* SignUpView.swift in Sources */,
 				A02A24812B576EDD004B07BC /* CraftMartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
